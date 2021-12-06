@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/referandearn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Refer and Earn"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/helpdesk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Helpdesk"
+            android:layout_marginTop="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/fairlplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fairplay Policy"
+            android:layout_marginTop="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/Settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:layout_marginTop="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/take_control"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Take Control"
+            android:layout_marginTop="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Spash_screen">
+
+    <ImageView
+        android:id="@+id/mpltitle"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/img"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/india"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mpltitle"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center"
+        android:text="INDIA'S LARGEST GAMING APP"
+        android:textColor="#1A1C2B"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/india"
+        android:text="Please wait while we get MPL ready for you"
+        android:layout_marginTop="20dp"
+        android:textColor="#1A1C2B"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/viratkohli" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GET READY TO PLAY!"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:layout_above="@+id/progressBar"
+        android:textColor="#00FF83"
+        android:padding="10dp"
+        android:background="#18073D"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#18073D"
+        android:indeterminate="true"
+        android:indeterminateOnly="true"
+        android:indeterminateBehavior="cycle"
+        android:max="100"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>
